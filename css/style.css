@@ -1,0 +1,45 @@
+
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+    background-color: #f8f9fa; 
+}
+.skill-card {
+    border: 2px solid red; 
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.card {
+    background-color: #f8f9fa; 
+    border: none; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.card-body {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+}
